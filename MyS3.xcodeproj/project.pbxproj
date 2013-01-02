@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47295E56168D946F00490B81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47295E55168D946F00490B81 /* UIKit.framework */; };
+		47295E58168D946F00490B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47295E57168D946F00490B81 /* Foundation.framework */; };
+		47295E5A168D946F00490B81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47295E59168D946F00490B81 /* CoreGraphics.framework */; };
+		47295E60168D946F00490B81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47295E5E168D946F00490B81 /* InfoPlist.strings */; };
+		47295E62168D946F00490B81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47295E61168D946F00490B81 /* main.m */; };
+		47295E66168D946F00490B81 /* delegateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47295E65168D946F00490B81 /* delegateAppDelegate.m */; };
+		47295E6F168D949F00490B81 /* BucketListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47295E6D168D949F00490B81 /* BucketListViewController.m */; };
+		47295E70168D949F00490B81 /* BucketListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47295E6E168D949F00490B81 /* BucketListViewController.xib */; };
+		47295E8E168DA15D00490B81 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47295E8C168DA15C00490B81 /* LoginViewController.m */; };
+		47295E8F168DA15D00490B81 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47295E8D168DA15C00490B81 /* LoginViewController.xib */; };
+		47295E94168DA36100490B81 /* text_field_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 47295E93168DA36100490B81 /* text_field_bg.png */; };
+		47295E97168DB1DE00490B81 /* AmazonClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47295E96168DB1DD00490B81 /* AmazonClientManager.m */; };
+		47295E9D168DD06B00490B81 /* ObjectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47295E9B168DD06B00490B81 /* ObjectListViewController.m */; };
+		47295E9E168DD06B00490B81 /* ObjectListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47295E9C168DD06B00490B81 /* ObjectListViewController.xib */; };
+		47295EA1168DE34B00490B81 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47295EA0168DE34B00490B81 /* OverlayViewController.m */; };
+		479F0316168DF41F00C88965 /* WinkProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 479F0315168DF41F00C88965 /* WinkProgress.m */; };
+		47A1D9201694403700F49275 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A1D91F1694403700F49275 /* OverlayViewController.xib */; };
+		47A1D92416944F6700F49275 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A1D92216944F3D00F49275 /* AWSiOSSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47295E51168D946F00490B81 /* MyS3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyS3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47295E55168D946F00490B81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47295E57168D946F00490B81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47295E59168D946F00490B81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47295E5D168D946F00490B81 /* MyS3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyS3-Info.plist"; sourceTree = "<group>"; };
+		47295E5F168D946F00490B81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47295E61168D946F00490B81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47295E63168D946F00490B81 /* MyS3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyS3-Prefix.pch"; sourceTree = "<group>"; };
+		47295E64168D946F00490B81 /* delegateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = delegateAppDelegate.h; sourceTree = "<group>"; };
+		47295E65168D946F00490B81 /* delegateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegateAppDelegate.m; sourceTree = "<group>"; };
+		47295E6C168D949F00490B81 /* BucketListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BucketListViewController.h; sourceTree = "<group>"; };
+		47295E6D168D949F00490B81 /* BucketListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BucketListViewController.m; sourceTree = "<group>"; };
+		47295E6E168D949F00490B81 /* BucketListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BucketListViewController.xib; path = ../BucketListViewController.xib; sourceTree = "<group>"; };
+		47295E8B168DA15C00490B81 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		47295E8C168DA15C00490B81 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		47295E8D168DA15C00490B81 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ../LoginViewController.xib; sourceTree = "<group>"; };
+		47295E93168DA36100490B81 /* text_field_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_field_bg.png; sourceTree = "<group>"; };
+		47295E95168DB1DD00490B81 /* AmazonClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonClientManager.h; sourceTree = "<group>"; };
+		47295E96168DB1DD00490B81 /* AmazonClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonClientManager.m; sourceTree = "<group>"; };
+		47295E9A168DD06B00490B81 /* ObjectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectListViewController.h; sourceTree = "<group>"; };
+		47295E9B168DD06B00490B81 /* ObjectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectListViewController.m; sourceTree = "<group>"; };
+		47295E9C168DD06B00490B81 /* ObjectListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ObjectListViewController.xib; path = ../ObjectListViewController.xib; sourceTree = "<group>"; };
+		47295E9F168DE34A00490B81 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		47295EA0168DE34B00490B81 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		479F0314168DF41F00C88965 /* WinkProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinkProgress.h; sourceTree = "<group>"; };
+		479F0315168DF41F00C88965 /* WinkProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinkProgress.m; sourceTree = "<group>"; };
+		47A1D91F1694403700F49275 /* OverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OverlayViewController.xib; path = ../OverlayViewController.xib; sourceTree = "<group>"; };
+		47A1D92216944F3D00F49275 /* AWSiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSiOSSDK.framework; path = MyS3/AWSiOSSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47295E4E168D946F00490B81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A1D92416944F6700F49275 /* AWSiOSSDK.framework in Frameworks */,
+				47295E56168D946F00490B81 /* UIKit.framework in Frameworks */,
+				47295E58168D946F00490B81 /* Foundation.framework in Frameworks */,
+				47295E5A168D946F00490B81 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47295E46168D946F00490B81 = {
+			isa = PBXGroup;
+			children = (
+				47295E91168DA36100490B81 /* Resources */,
+				47295E5B168D946F00490B81 /* MyS3 */,
+				47295E54168D946F00490B81 /* Frameworks */,
+				47295E52168D946F00490B81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47295E52168D946F00490B81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47295E51168D946F00490B81 /* MyS3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47295E54168D946F00490B81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47A1D92216944F3D00F49275 /* AWSiOSSDK.framework */,
+				47295E55168D946F00490B81 /* UIKit.framework */,
+				47295E57168D946F00490B81 /* Foundation.framework */,
+				47295E59168D946F00490B81 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47295E5B168D946F00490B81 /* MyS3 */ = {
+			isa = PBXGroup;
+			children = (
+				479F0314168DF41F00C88965 /* WinkProgress.h */,
+				479F0315168DF41F00C88965 /* WinkProgress.m */,
+				47295E8B168DA15C00490B81 /* LoginViewController.h */,
+				47295E8C168DA15C00490B81 /* LoginViewController.m */,
+				47295E9A168DD06B00490B81 /* ObjectListViewController.h */,
+				47295E9B168DD06B00490B81 /* ObjectListViewController.m */,
+				47295E9F168DE34A00490B81 /* OverlayViewController.h */,
+				47295EA0168DE34B00490B81 /* OverlayViewController.m */,
+				47295E95168DB1DD00490B81 /* AmazonClientManager.h */,
+				47295E96168DB1DD00490B81 /* AmazonClientManager.m */,
+				47295E64168D946F00490B81 /* delegateAppDelegate.h */,
+				47295E65168D946F00490B81 /* delegateAppDelegate.m */,
+				47295E5C168D946F00490B81 /* Supporting Files */,
+				47295E6C168D949F00490B81 /* BucketListViewController.h */,
+				47295E6D168D949F00490B81 /* BucketListViewController.m */,
+			);
+			path = MyS3;
+			sourceTree = "<group>";
+		};
+		47295E5C168D946F00490B81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47295E5D168D946F00490B81 /* MyS3-Info.plist */,
+				47295E5E168D946F00490B81 /* InfoPlist.strings */,
+				47295E61168D946F00490B81 /* main.m */,
+				47295E63168D946F00490B81 /* MyS3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47295E91168DA36100490B81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47295E6E168D949F00490B81 /* BucketListViewController.xib */,
+				47A1D91F1694403700F49275 /* OverlayViewController.xib */,
+				47295E8D168DA15C00490B81 /* LoginViewController.xib */,
+				47295E9C168DD06B00490B81 /* ObjectListViewController.xib */,
+				47295E92168DA36100490B81 /* Images */,
+			);
+			name = Resources;
+			path = MyS3/Resources;
+			sourceTree = "<group>";
+		};
+		47295E92168DA36100490B81 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				47295E93168DA36100490B81 /* text_field_bg.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47295E50168D946F00490B81 /* MyS3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47295E69168D946F00490B81 /* Build configuration list for PBXNativeTarget "MyS3" */;
+			buildPhases = (
+				47295E4D168D946F00490B81 /* Sources */,
+				47295E4E168D946F00490B81 /* Frameworks */,
+				47295E4F168D946F00490B81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyS3;
+			productName = MyS3;
+			productReference = 47295E51168D946F00490B81 /* MyS3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47295E48168D946F00490B81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 47295E4B168D946F00490B81 /* Build configuration list for PBXProject "MyS3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47295E46168D946F00490B81;
+			productRefGroup = 47295E52168D946F00490B81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47295E50168D946F00490B81 /* MyS3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47295E4F168D946F00490B81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47295E60168D946F00490B81 /* InfoPlist.strings in Resources */,
+				47295E70168D949F00490B81 /* BucketListViewController.xib in Resources */,
+				47295E8F168DA15D00490B81 /* LoginViewController.xib in Resources */,
+				47295E94168DA36100490B81 /* text_field_bg.png in Resources */,
+				47295E9E168DD06B00490B81 /* ObjectListViewController.xib in Resources */,
+				47A1D9201694403700F49275 /* OverlayViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47295E4D168D946F00490B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47295E62168D946F00490B81 /* main.m in Sources */,
+				47295E66168D946F00490B81 /* delegateAppDelegate.m in Sources */,
+				47295E6F168D949F00490B81 /* BucketListViewController.m in Sources */,
+				47295E8E168DA15D00490B81 /* LoginViewController.m in Sources */,
+				47295E97168DB1DE00490B81 /* AmazonClientManager.m in Sources */,
+				47295E9D168DD06B00490B81 /* ObjectListViewController.m in Sources */,
+				47295EA1168DE34B00490B81 /* OverlayViewController.m in Sources */,
+				479F0316168DF41F00C88965 /* WinkProgress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47295E5E168D946F00490B81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47295E5F168D946F00490B81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47295E67168D946F00490B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47295E68168D946F00490B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47295E6A168D946F00490B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/MyS3\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyS3/MyS3-Prefix.pch";
+				INFOPLIST_FILE = "MyS3/MyS3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47295E6B168D946F00490B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/MyS3\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyS3/MyS3-Prefix.pch";
+				INFOPLIST_FILE = "MyS3/MyS3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47295E4B168D946F00490B81 /* Build configuration list for PBXProject "MyS3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47295E67168D946F00490B81 /* Debug */,
+				47295E68168D946F00490B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47295E69168D946F00490B81 /* Build configuration list for PBXNativeTarget "MyS3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47295E6A168D946F00490B81 /* Debug */,
+				47295E6B168D946F00490B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47295E48168D946F00490B81 /* Project object */;
+}
